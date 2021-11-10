@@ -29,7 +29,7 @@ function check(){
       document.getElementById("Play2").innerHTML = "None";
       document.getElementById("one").src = "img/question.png"
       document.getElementById("two").src = "img/question.png"
-    
+
       document.getElementById("Player1").innerHTML = score1;
       document.getElementById("Player2").innerHTML = score2;
     break;
@@ -73,7 +73,8 @@ function check(){
     default:
       document.getElementById("Play1").innerHTML = "None";
       document.getElementById("Play2").innerHTML = "None";
-      score2 += 1;
+      score2 = holder2 + 1;
+      holder2 = score2;
       score1 = 0;
       document.getElementById("player1").innerHTML = score1;
       document.getElementById("player2").innerHTML = score2;
