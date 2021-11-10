@@ -1,0 +1,13 @@
+.bcolor{
+  background-color: red;
+}
+.text{
+  font-family: 'Ceviche One', cursive;
+}
+.photo{
+  width: 25vw;
+  height: 50vh;
+}
+.height{
+  height: 10vh;
+}
